@@ -33,15 +33,60 @@ body {
 }
 
 .container { 
+  width: 100vw;
+  height: 100vh;
+  background: $neutral-cream;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .balance-container { 
+  width: 24rem;
+  height: 4rem;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-color-red;
+  margin-bottom: 1rem;
+  
+}
 
+.mybalance-text { 
+  font-size: 1rem;
+  font-weight: $fw-reg;
+}
+
+.balance-text { 
+  font-weight: $fw-bold;
+}
+
+.mybalance-left-container { 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logo { 
+  float: left;
+}
+
+.spending-container { 
+  display: flex;
+  background-color: $neutral-very-pale-orange;
+  color: black;
+}
+
+.spending-text { 
+  font-size: $fw-bold;
 }
 
 .weekly { 
-
+  
 }
 
 .total { 
